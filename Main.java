@@ -8,8 +8,8 @@ public class Main
     double quadValues = quadFormulaPos(1, -8, 5);
     System.out.println(quadValues);
 
-    double quadValues = quadFormulaNeg(1, -8, 5);
-    System.out.println(quadValues);
+    double quadVal = quadFormulaNeg(1, -8, 5);
+    System.out.println(quadVal);
   }
 
   public static double distFormula(double x1, double y1, double x2, double y2)
